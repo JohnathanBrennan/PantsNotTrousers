@@ -10,7 +10,7 @@ function App() {
         <p>
           More than just a band. It's an idea.
         </p>
-        
+
       </header>
     </div>
   );

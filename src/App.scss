@@ -1,0 +1,47 @@
+//~~~~~~~~~~~~~~~~~~~~~~
+// Custom Color Palette
+//~~~~~~~~~~~~~~~~~~~~~~
+
+$pnt_blue: #4a64b8;
+$pnt_indigo: #2C4460;
+$pnt_yellow: #F0F090;
+$pnt_white: #F5E0F5;
+$pnt_coffee: #81523F;
+
+//~~~~~~~~~~~~~~~~~~~~~~
+// Custom Fonts
+//~~~~~~~~~~~~~~~~~~~~~~
+
+$font_pnt_thin1: 'Kite One', sans-serif;
+$font_pnt_thin2: 'Edu QLD Beginner', cursive;
+$font_pnt_bold1: 'Bowlby One SC', cursive;
+$font_pnt_bold2: 'Staatliches', cursive;
+$font_pnt_body1: 'Nixie One', cursive;
+
+
+.App-header {
+  background-color: $pnt_white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $pnt_indigo;
+  
+  h1 {
+    font-family: $font_pnt_bold1;
+    font-size: 100px;
+  }
+
+  p {
+    font-family: $font_pnt_body1;
+    font-size: 30px;
+  }
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
